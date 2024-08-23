@@ -1,0 +1,16 @@
+GET http://localhost:3003/mentors/
+
+### 
+
+GET http://localhost:3003/bookings/
+
+### 
+
+POST http://localhost:3003/bookings/ 
+
+{
+    "studentname": "Gopichand",
+    "mentorname": "Kavya",
+    "duration": 30,
+    "id": 1
+}
